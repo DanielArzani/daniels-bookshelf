@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    // Additions for Type Definitions and Output Directory
+    "declaration": true, // Generates corresponding '.d.ts' file
+    "outDir": "lib", // Redirect output structure to 'lib' folder
+    "rootDir": "src", // Consider 'src' as the root directory
+    // Optional, but often useful in library projects
+    "jsx": "react", // For handling JSX syntax if using React
+    "lib": [
+      "dom",
+      "esnext"
+    ] // Include DOM and latest ECMAScript features
+  },
+  "include": [
+    "src/**/*"
+  ], // Include all files within the src directory
+  "exclude": [
+    "node_modules",
+    "lib"
+  ] // Exclude 'node_modules' and 'lib' directories from source files
+}

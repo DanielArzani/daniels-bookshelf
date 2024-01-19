@@ -1,0 +1,27 @@
+{
+  "name": "daniels-bookshelf",
+  "version": "1.0.0",
+  "description": "A library to hold my re-usable react components",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc && babel src --extensions '.tsx,.ts' --out-dir lib --copy-files"
+  },
+  "author": "Daniel Arzanipour",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.8",
+    "@babel/preset-react": "^7.23.3",
+    "@babel/preset-typescript": "^7.23.3",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@types/styled-components": "^5.1.34",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.8"
+  }
+}
