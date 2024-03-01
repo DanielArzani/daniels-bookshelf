@@ -18,8 +18,9 @@
     ] // Include DOM and latest ECMAScript features
   },
   "include": [
-    "src/**/*"
-  ], // Include all files within the src directory
+    "src/**/*",
+    "types"
+  ], // Include all files within the src directory and the global type declarations
   "exclude": [
     "node_modules",
     "lib"

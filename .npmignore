@@ -38,3 +38,5 @@ yarn-error.log*
 # Source files (if you're compiling)
 # If you are compiling/transpiling your TypeScript to JavaScript, you might choose to exclude the original source files (/src/) to keep the package smaller. However, if you want users to access the source TypeScript files, you should include them.
 # /src/
+
+/notes.md
