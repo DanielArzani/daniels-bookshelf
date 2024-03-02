@@ -1,6 +1,6 @@
 {
   "name": "daniels-bookshelf",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A library to hold my re-usable react components",
   "main": "lib/index.js",
   "scripts": {
